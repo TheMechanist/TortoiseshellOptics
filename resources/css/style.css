@@ -1,0 +1,182 @@
+/* BEGIN GLOBAL STYLING */
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.margin {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* END GLOBAL STYLING */
+
+/* BEGIN NAVBAR STYLING */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+#glasses-ico, #copyright, #Smallav {
+  display: flex;
+}
+
+#glasses-ico img, #copyright img {
+  margin: auto 0;
+  height: 1.5rem;
+}
+
+#glasses-ico img {
+  padding-left: 2rem;
+}
+
+.TSO {
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+#LargeNav span a, #SmallNav span a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+#LargeNav #SmallNav {
+  padding-right: 1rem;
+}
+/* END NAVBAR STYLING */
+
+/* BEGIN BANNER STYLING */
+#banner-bg {
+  background: url(../imgs/glasses-bg.png) no-repeat center;
+  background-size: cover;
+  height: 30rem;
+}
+
+#cta {
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  justify-content: flex-end;
+}
+
+#cta span {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+/* END BANNER STYLING */
+
+/* BEGIN PRODUCT STYLING */
+#feature-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.feature {
+  flex-direction: column;
+  height: 8rem;
+}
+
+.feature-img {
+  display: flex;
+  padding: 3rem;
+  height: 9rem;
+}
+
+.feature img {
+  margin: auto;
+}
+
+.feature p {
+  text-align: center;
+   
+}
+/* END PRODUCT STYLING *?
+
+/* BEGIN INFO STYLING */
+#info {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0 4rem 0;
+}
+
+.info {
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.data {
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  margin-top: 3rem;
+}
+
+.title p {
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+/* END INFO STYLING */
+
+/* BEGIN FOOTER STYLING */
+#copyright {
+  margin-top: 5rem;
+  padding: 4rem;
+  background-color: azure;
+}
+
+#copyright span {
+  color: black;
+}
+/* END FOOTER STYLING */
+
+/* BEGIN MEDIA QUERY STYLING */
+@media only screen and (min-width: 1024px) {
+  #SmallNav {
+    display: none;
+  }
+  
+  .flex {
+  flex: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #SmallNav { 
+    display: none;
+  }
+  
+  .flex {
+  flex: 1;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #LargeNav {
+    display: none;
+  }
+   
+  #info {
+    
+  }
+  
+  .info {
+    
+  }
+  
+  #copyright {
+    
+  }
+}
+/* END MEDIA QUERY STYLING */
