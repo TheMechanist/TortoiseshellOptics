@@ -62,7 +62,7 @@ header {
 }
 
 .banner-bg {
-  background-image: url(../imgs/glasses-bg.png) center center no-repeat;
+  background: url(../imgs/glasses-bg.png) center center no-repeat;
   background-size: cover;
 }
 
